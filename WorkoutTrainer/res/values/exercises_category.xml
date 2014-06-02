@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="names">
+	<item>Chest</item>
+	<item>Back</item>
+	<item>Legs</item>
+	<item>Shoulders</item>
+	<item>Arms</item>
+	<item>Abdominals</item>
+	</string-array>
+	
+    <string-array name="descriptions">
+	<item>Want to lose those man boobs and have a defined chiseled chest for the summer? The best chest exercise routine should be made up of lower, upper and inner chest exercises, all of which are here on WorkoutTrainer.</item>
+	<item>Often back exercises are neglected from a weekly routine, which is a mistake as a strong back is vital for good posture. We will show you the best lower and upper back exercises to ensure your back is kept in shape.</item>
+	<item>If you want a great physique, it should start from the ground up with your legs. An effective leg exercise routine not only strengthens the legs but also helps build core and other muscles.</item>
+	<item>Having broad shoulders is something that women look for in men. WorkoutBOX has the best shoulder exercises that will help you build strong, defined shoulders.</item>
+	<item>It’s a fact that women love men with big arms… Our arm exercise database includes bicep, tricep and forearm exercises. Add these exercises into your weekly routine and put those arms into overdrive.</item>
+	<item>If you’re serious about picking up heavy weights, then it’s essential to incorporate core exercises into your weekly program as they improve your overall balance and strength.</item>
+	</string-array>
+</resources>

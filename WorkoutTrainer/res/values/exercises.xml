@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="eChest">
+	<item>Alternating Floor Press</item>
+	<item>Around The Worlds</item>
+	<item>Barbell Bench Press - Medium Grip</item>
+	<item>Barbell Guillotine Bench Press</item>
+	<item>Barbell Incline Bench Press - Medium Grip</item>
+	<item>Behind Head Chest Stretch</item>
+	</string-array>
+	
+   <string-array name="eBack">
+	<item>Back Extension</item>
+	<item>Atlas Stone Trainer</item>
+	<item>Atlas Stones</item>
+	<item>Axle Deadlift</item>
+	<item>Barbell Deadlift</item>
+	<item>Cat Stretch</item>
+	</string-array>
+	
+   <string-array name="eLegs">
+	<item>Hip Circles (prone)</item>
+	<item>Iliotibial Tract-SMR</item>
+	<item>IT Band and Glute Stretch</item>
+	<item>Lying Crossover</item>
+	<item>Monster Walk</item>
+	<item>Standing Hip Circles</item>
+	</string-array>
+	
+   <string-array name="eShoulders">
+	<item>Alternating Cable Shoulder Press</item>
+	<item>Alternating Deltoid Raise</item>
+	<item>Alternating Kettlebell Press</item>
+	<item>Anti-Gravity Press</item>
+	<item>Arm Circles</item>
+	<item>Arnold Dumbbell Press</item>
+	</string-array>
+	
+   <string-array name="eArms">
+	<item>Alternate Hammer Curl</item>
+	<item>Alternate Incline Dumbbell Curl</item>
+	<item>Barbell Curl</item>
+	<item>Barbell Curls Lying Against An Incline</item>
+	<item>Brachialis-SMR</item>
+	<item>Cable Hammer Curls - Rope </item>
+	</string-array>
+	
+   <string-array name="eAbdominals">
+	<item>3on4 Sit-Up</item>
+	<item>Ab Crunch Machine</item>
+	<item>Ab Roller</item>
+	<item>Advanced Kettlebell Windmill</item>
+	<item>Air Bike</item>
+	<item>Alternate Heel Touchers</item>
+	</string-array>
+	
+   <string name="inf0_0">1. Lie on the floor with two kettlebells next to your shoulders.
+2. Position one in place on your chest and then the other, gripping the kettlebells on the handle with the palms facing forward.
+3. Extend both arms, so that the kettlebells are being held above your chest. Lower one kettlebell, bringing it to your chest and turn the wrist in the direction of the locked out kettlebell.
+4. Raise the kettlebell and repeat on the opposite side.
+	</string>
+	<string name="inf0_1">aaaa
+	</string>
+	<string name="inf0_2">ssss
+	</string>
+	<string name="inf0_3">dddd
+	</string>
+	<string name="inf0_4">
+	</string>
+	<string name="inf0_5">
+	</string>
+	</resources>

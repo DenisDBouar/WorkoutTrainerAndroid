@@ -31,6 +31,8 @@
         <activity android:name="BodyParts"></activity>
         <activity android:name="StartWorout"></activity>
         <activity android:name="VideoWorout"></activity>
+        <activity android:name="Bmi"></activity>
+        <activity android:name="Motivation"></activity>
     </application>
 
 </manifest>

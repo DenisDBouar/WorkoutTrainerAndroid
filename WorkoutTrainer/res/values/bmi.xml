@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textbmitop">BMI (Body Mass Index) is a measurement of body fat based on height and weight that applies to both men and women between the ages of 18 and 65 years.</string>
+    <string name="textbmibottom">Please remember, however, that this is only one of many possible ways to assess your weight. If you have any concerns about your weight, please discuss them with your physician, who is in a position, unlike this BMI calculator, to address your specific individual situation.</string>
+</resources>

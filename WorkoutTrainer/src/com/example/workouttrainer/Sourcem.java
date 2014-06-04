@@ -2,6 +2,15 @@ package com.example.workouttrainer;
 
 public class Sourcem {
 	
+	public static Integer[] imgbodyparts = {
+	          R.drawable.ec_chest,
+	          R.drawable.ec_back,
+	          R.drawable.ec_legs,
+	          R.drawable.ec_shoulders,
+	          R.drawable.ec_arms,
+	          R.drawable.ec_abdominals,
+	  };
+	
 	 public static Integer[] exercise = {
 			  R.array.eChest,
 			  R.array.eBack,
@@ -67,6 +76,17 @@ public class Sourcem {
           R.drawable.muscul_shoulders,
           R.drawable.muscul_arms,
           R.drawable.muscul_abdominals,
+       };
+	  
+	  public static Integer[] imMotivation = {
+          R.drawable.fit_mot_0,
+          R.drawable.fit_mot_1,
+          R.drawable.fit_mot_2,
+          R.drawable.fit_mot_3,
+          R.drawable.fit_mot_4,
+          R.drawable.fit_mot_5,
+          R.drawable.fit_mot_6,
+          R.drawable.fit_mot_7,
   };
 
 }

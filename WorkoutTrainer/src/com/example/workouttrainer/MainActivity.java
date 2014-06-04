@@ -21,8 +21,10 @@ import android.widget.SimpleAdapter;
 
 public class MainActivity extends Activity implements OnClickListener{
 	private Button btnexercises;
-	private Button btn000;
-	private Button btn111;
+	private Button btnbmi;
+	private Button btnbai;
+	private Button btnmotivation;
+	private Button progress;
 
 
   /** Called when the activity is first created. */
@@ -33,11 +35,14 @@ public class MainActivity extends Activity implements OnClickListener{
     btnexercises = (Button) findViewById(R.id.btnexercises);
     btnexercises.setOnClickListener(this);
     
-    btn000 = (Button) findViewById(R.id.btn000);
-    btn000.setOnClickListener(this);
+    btnbmi = (Button) findViewById(R.id.btn_bmi);
+    btnbmi.setOnClickListener(this);
     
-    btn111 = (Button) findViewById(R.id.btn111);
-    btn111.setOnClickListener(this);
+    btnmotivation = (Button) findViewById(R.id.btn_motivation);
+    btnmotivation.setOnClickListener(this);
+    
+    progress = (Button) findViewById(R.id.btn_progress);
+    progress.setOnClickListener(this);
   }
   
   @Override
@@ -47,11 +52,14 @@ public class MainActivity extends Activity implements OnClickListener{
 	    case R.id.btnexercises:
 	    	intent = new Intent(this, BodyParts.class);
 	      break;
-	    case R.id.btn000:
-	    	intent = new Intent(this, BodyParts.class);
+	    case R.id.btn_bmi:
+	    	intent = new Intent(this, Bmi.class);
 	      break;
-	    case R.id.btn111:
-	    	intent = new Intent(this, BodyParts.class);
+	    case R.id.btn_motivation:
+	    	intent = new Intent(this, Motivation.class);
+	      break;
+	    case R.id.btn_progress:
+	    	intent = new Intent(this, Process.class);
 	      break;
 	    default:
 	      break;

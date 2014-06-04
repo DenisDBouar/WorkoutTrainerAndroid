@@ -10,17 +10,29 @@
         android:id="@+id/btnexercises"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Exercises" />
+        android:text="Workouts" />
 
     <Button
-        android:id="@+id/btn000"
+        android:id="@+id/btn_bmi"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="0000" />
+        android:text="Calculate BMI" />
+    
+    <Button
+        android:id="@+id/btn_bai"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate BAI" />
+    
+    <Button
+        android:id="@+id/btn_motivation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FIT Motivation" />
 
     <Button
-        android:id="@+id/btn111"
+        android:id="@+id/btn_progress"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="111" />
+        android:text="Progress Tracker" />
 </LinearLayout>

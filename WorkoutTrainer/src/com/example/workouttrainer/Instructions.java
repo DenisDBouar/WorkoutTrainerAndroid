@@ -20,8 +20,8 @@ public class Instructions extends Activity {
 	    type = intent.getStringExtra("type");
 	    String[] parts = type.split("_");
 	    
-	    Log.d("myLogs", "Instructions: type = " + type  + " val:" +Integer.valueOf(parts[0]));
-	    Log.d("myLogs", "Instructions2: type = " + type  + " val:" +Sourcem.imMusculs[Integer.valueOf(parts[0])]);
+	    //Log.d("myLogs", "Instructions: type = " + type  + " val:" +Integer.valueOf(parts[0]));
+	    //Log.d("myLogs", "Instructions2: type = " + type  + " val:" +Sourcem.imMusculs[Integer.valueOf(parts[0])]);
 
 	  mImageView = (ImageView)findViewById(R.id.imgMuscul);
 	  mImageView.setImageResource(Sourcem.imMusculs[Integer.valueOf(parts[0])]);

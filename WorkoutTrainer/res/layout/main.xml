@@ -13,16 +13,10 @@
         android:text="Workouts" />
 
     <Button
-        android:id="@+id/btn_bmi"
+        android:id="@+id/layoutChart"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Calculate BMI" />
-    
-    <Button
-        android:id="@+id/btn_bai"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculate BAI" />
     
     <Button
         android:id="@+id/btn_motivation"

@@ -22,7 +22,6 @@ import android.widget.SimpleAdapter;
 public class MainActivity extends Activity implements OnClickListener{
 	private Button btnexercises;
 	private Button btnbmi;
-	private Button btnbai;
 	private Button btnmotivation;
 	private Button progress;
 
@@ -35,7 +34,7 @@ public class MainActivity extends Activity implements OnClickListener{
     btnexercises = (Button) findViewById(R.id.btnexercises);
     btnexercises.setOnClickListener(this);
     
-    btnbmi = (Button) findViewById(R.id.btn_bmi);
+    btnbmi = (Button) findViewById(R.id.layoutChart);
     btnbmi.setOnClickListener(this);
     
     btnmotivation = (Button) findViewById(R.id.btn_motivation);
@@ -52,14 +51,14 @@ public class MainActivity extends Activity implements OnClickListener{
 	    case R.id.btnexercises:
 	    	intent = new Intent(this, BodyParts.class);
 	      break;
-	    case R.id.btn_bmi:
+	    case R.id.layoutChart:
 	    	intent = new Intent(this, Bmi.class);
 	      break;
 	    case R.id.btn_motivation:
 	    	intent = new Intent(this, Motivation.class);
 	      break;
 	    case R.id.btn_progress:
-	    	intent = new Intent(this, Process.class);
+	    	intent = new Intent(this, WProgress.class);
 	      break;
 	    default:
 	      break;

@@ -33,6 +33,11 @@
         <activity android:name="VideoWorout"></activity>
         <activity android:name="Bmi"></activity>
         <activity android:name="Motivation"></activity>
+        <activity android:name="WProgress"></activity>
+        <activity android:name="AddData"></activity>
+        <activity android:name="ChartData"></activity>
+        <activity android:name="UpdateData"></activity>
+        <activity android:name="DataTable"></activity>
     </application>
 
 </manifest>

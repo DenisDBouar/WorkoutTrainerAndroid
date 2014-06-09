@@ -98,8 +98,8 @@ public class StartWorout extends Activity {
 		ImageView tv11 = new ImageView(this);  
 	    tv11.setImageResource(res);
 	    TableRow tableRow3 =(TableRow)findViewById(R.id.trStartWorkout);         
-	    int RGB1 = android.graphics.Color.rgb(223, 223, 223); 
-	    tableRow3.setBackgroundColor(RGB1); 
+	    //int RGB1 = android.graphics.Color.rgb(223, 223, 223); 
+	    //tableRow3.setBackgroundColor(RGB1); 
 	    tableRow3.addView(tv11);
 	}
 	
@@ -107,8 +107,8 @@ public class StartWorout extends Activity {
 		ImageSwitcher tv11 = new ImageSwitcher(this);  
 	    tv11.setId(12345);
 	    TableRow tableRow3 =(TableRow)findViewById(R.id.trStartWorkout);         
-	    int RGB1 = android.graphics.Color.rgb(223, 223, 223); 
-	    tableRow3.setBackgroundColor(RGB1); 
+	    //int RGB1 = android.graphics.Color.rgb(223, 223, 223); 
+	    //tableRow3.setBackgroundColor(RGB1); 
 	    tableRow3.addView(tv11);
 	}
 	

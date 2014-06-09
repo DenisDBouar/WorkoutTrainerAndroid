@@ -3,25 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
+   android:background="@drawable/smoke_colors_wide"
+   
     android:gravity="center"
     android:orientation="vertical" >
 
     <Button
         android:id="@+id/btnInstruction"
+        style="@style/mybuttonstyle"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:text="Instruction" />
 
     <Button
         android:id="@+id/btnStartWorkout"
+        style="@style/mybuttonstyle"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:text="Start Workout" />
 
     <Button
         android:id="@+id/btnVideo"
+        style="@style/mybuttonstyle"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:text="Video" />
 
 </LinearLayout>

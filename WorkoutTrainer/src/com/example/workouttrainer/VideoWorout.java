@@ -23,11 +23,17 @@ public class VideoWorout extends Activity {
 	     VideoView videoView = (VideoView) findViewById(R.id.videoView1);
 	     MediaController mediaController = new MediaController(this);
 	     mediaController.setAnchorView(videoView);
-	       String videoToPlay = "http://bffmedia.com/bigbunny.mp4";
+	       String videoToPlay = getStringResourceByName("vid" + type);
 	       Uri video = Uri.parse(videoToPlay);
 	     videoView.setMediaController(mediaController);
 	    videoView.setVideoURI(video);
 	    videoView.start();
 	 }
+	
+	private String getStringResourceByName(String aString) {
+	      String packageName = getPackageName();
+	      int resId = getResources().getIdentifier(aString, "string", packageName);
+	      return getString(resId);
+	    }
 
 }

@@ -2,24 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/progressback"
+    android:gravity="center"
     android:orientation="vertical" >
     
     <Button
         android:id="@+id/btnAddData"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
+        style="@style/mybuttonstyle"
         android:text="Isert new result" />
 
     <Button
         android:id="@+id/btnChart"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
+        style="@style/mybuttonstyle"
         android:text="BAI Chart" />
     
     <Button
         android:id="@+id/btnDataTable"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
+        style="@style/mybuttonstyle"
         android:text="Data Table" />
 
 </LinearLayout>

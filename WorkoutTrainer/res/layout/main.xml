@@ -2,31 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_margin="10dp"
+    android:background="@drawable/smoke_colors_wide"
+    android:layout_margin="5dp"
     android:gravity="center"
     android:orientation="vertical" >
 
 	 <Button
-        android:id="@+id/btnexercises"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Workouts" />
+	     android:id="@+id/btnexercises"
+	     style="@style/mybuttonstyle"
+	     android:layout_width="fill_parent"
+	     android:layout_height="49dp"
+	     
+	     android:text="Workouts" />
 
     <Button
         android:id="@+id/layoutChart"
+        style="@style/mybuttonstyle"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:text="Calculate BMI" />
     
     <Button
         android:id="@+id/btn_motivation"
+        style="@style/mybuttonstyle"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:text="FIT Motivation" />
 
     <Button
         android:id="@+id/btn_progress"
+        style="@style/mybuttonstyle"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="49dp"
         android:text="Progress Tracker" />
 </LinearLayout>

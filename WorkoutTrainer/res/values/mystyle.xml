@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <style name="mybuttonstyle"> 
+        <item name="android:layout_width">140dp</item>
+	    <item name="android:layout_height">50dp</item>
+	    <item name="android:background">@drawable/new_button</item>
+	    <item name="android:minHeight">64dp</item>
+	    <item name="android:layout_margin">10dp</item>
+	    <item name="android:shadowColor">#5E5E5E</item>
+	    <item name="android:shadowDx">0</item>
+	    <item name="android:shadowDy">0</item>
+	    <item name="android:shadowRadius">5</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	    <item name="android:textSize">30sp</item>
+    </style> 
+</resources> 

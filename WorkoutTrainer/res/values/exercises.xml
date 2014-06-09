@@ -59,14 +59,34 @@
 3. Extend both arms, so that the kettlebells are being held above your chest. Lower one kettlebell, bringing it to your chest and turn the wrist in the direction of the locked out kettlebell.
 4. Raise the kettlebell and repeat on the opposite side.
 	</string>
-	<string name="inf0_1">aaaa
-	</string>
-	<string name="inf0_2">ssss
-	</string>
-	<string name="inf0_3">dddd
-	</string>
+	<string name="inf0_1">1. Lay down on a flat bench holding a dumbbell in each hand with the palms of the hands facing towards the ceiling. Tip: Your arms should be parallel to the floor and next to your thighs. To avoid injury, make sure that you keep your elbows slightly bent. This will be your starting position.
+2. Now move the dumbbells by creating a semi-circle as you displace them from the initial position to over the head. All of the movement should happen with the arms parallel to the floor at all times. Breathe in as you perform this portion of the movement.
+3. Reverse the movement to return the weight to the starting position as you exhale.
+	</string>		
+	<string name="inf0_2">1. Lie back on a flat bench. Using a medium width grip (a grip that creates a 90-degree angle in the middle of the movement between the forearms and the upper arms), lift the bar from the rack and hold it straight over you with your arms locked. This will be your starting position.
+2. From the starting position, breathe in and begin coming down slowly until the bar touches your middle chest.
+3. After a brief pause, push the bar back to the starting position as you breathe out. Focus on pushing the bar using your chest muscles. Lock your arms and squeeze your chest in the contracted position at the top of the motion, hold for a second and then start coming down slowly again. Tip: Ideally, lowering the weight should take about twice as long as raising it.
+4. Repeat the movement for the prescribed amount of repetitions.
+5. When you are done, place the bar back in the rack.
+	</string>		
+	<string name="inf0_3">1. Using a medium width grip (a grip that creates a 90-degree angle in the middle of the movement between the forearms and the upper arms), lift the bar from the rack and hold it straight over your neck with your arms locked. This will be your starting position.
+2. As you breathe in, bring the bar down slowly until it is about 1 inch from your neck.
+3. After a second pause, bring the bar back to the starting position as you breathe out and push the bar using your chest muscles. Lock your arms and squeeze your chest in the contracted position, hold for a second and then start coming down slowly again. It should take at least twice as long to go down than to come up.
+4. Repeat the movement for the prescribed amount of repetitions.
+5. When you are done, place the bar back in the rack.
+	</string>		
 	<string name="inf0_4">
-	</string>
+	</string>		
 	<string name="inf0_5">
 	</string>
+	
+	
+	
+	
+	<string name="inf1_0">1. This trainer is effective for developing Atlas Stone strength for those who don not have access to stones, and are typically made from bar ends or heavy pipe.
+2. Begin by loading the desired weight onto the bar. Straddle the weight, wrapping your arms around the implement, bending at the hips.
+3. Begin by pulling the weight up past the knees, extending through the hips. As the weight clears the knees, it can be lapped by resting it on your thighs and sitting back, hugging it tightly to your chest.
+4. Finish the movement by extending through your hips and knees to raise the weight as high as possible. The weight can be returned to the lap or to the ground for successive repetitions
+	</string>
+		
 	</resources>
